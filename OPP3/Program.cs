@@ -27,6 +27,8 @@ namespace OPP3
 
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
             //github deneme
+            //github
+            //git
         }
     }
 }
