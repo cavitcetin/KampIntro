@@ -26,6 +26,11 @@ namespace OPP3
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager, tasitKrediManager };
 
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+
+            //İnterface-İnheritance Farkı
+            //İnheritance'da kesişim kümesi gibidir. Ortaklar bir yere yazılır ve ebeveyn olarak atanıp çocukların içine de tanımlanır.
+            //İnterface ise ortak işlemin farklı yollarda yapıldığı durumlarda kullanılır. Kredi hesabının ihtiyaç ve taşıtta farklı olması gibi.
+
   
         }
     }

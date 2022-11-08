@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OPP3\OOP3.csproj", "{63A7DBB8-65D8-4D0B-8FB2-66BC1FB86710}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GecericsWorkReal", "GecericsWorkReal\GecericsWorkReal.csproj", "{4AFE6970-FC44-4D73-8F0B-4D0B56C5A9F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{63A7DBB8-65D8-4D0B-8FB2-66BC1FB86710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A7DBB8-65D8-4D0B-8FB2-66BC1FB86710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A7DBB8-65D8-4D0B-8FB2-66BC1FB86710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFE6970-FC44-4D73-8F0B-4D0B56C5A9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFE6970-FC44-4D73-8F0B-4D0B56C5A9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFE6970-FC44-4D73-8F0B-4D0B56C5A9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFE6970-FC44-4D73-8F0B-4D0B56C5A9F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

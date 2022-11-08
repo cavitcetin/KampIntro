@@ -6,7 +6,7 @@ namespace GenericsWork
     {
         static void Main(string[] args)
         {
-            MyDictionary <string> ulkeler = new MyDictionary<string>();
+            MyList <string> ulkeler = new MyList<string>();
             ulkeler.Add("Türkiye");
             ulkeler.Add("İngiltere");
             ulkeler.Add("Fransa");

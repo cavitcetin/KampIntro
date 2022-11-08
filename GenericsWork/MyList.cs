@@ -7,13 +7,13 @@ namespace GenericsWork
     // 1-) MyDictionary class'ını oluşturduk. (Class tipimizi random isim seçerek T olarak atadık. Bunun sebebi içine int mı string mi veya başka bir tip mi
     // vereceğimizin belli olmamasıdır. Program.cs kısmında bu oluşturduğumuz listeye veri eklerken eklediğimiz verinin türünü girerek ekleriz, MyDictionar[T] classımız da
     // onu bizim eklerken belirttiğimiz türde kaydeder. Daha iyi anlamak için program.cs'de dediğim kısma bakabilirsiniz.)
-    class MyDictionary<T>
+    class MyList<T>
     {
         T[] items;
 
         // 3-) Program.cs kısmından yeni veri eklediğimde çalışacak kodu yazıyorum. Bu kodu yazma sebebim yapay oluşturduğum MyDictionary'mde kaç eleman olduğunu belirtmek.
         // yani aşağıdaki kodun türkçesi 0 elemanlı bir liste oluşturdum.
-        public MyDictionary()
+        public MyList()
         {
             items = new T[0];
         }              
